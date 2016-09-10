@@ -24,7 +24,7 @@ password.send_keys(os.getenv('cwl_password')) # replace os.getenv('cwl_password'
 form.submit()
 
 while 1:
-	# refresh every 9 minutes, 29 seconds
-    time.sleep(569)
+	# refresh every 9 minutes, 25 seconds
+    time.sleep(565)
     driver.refresh()
 
